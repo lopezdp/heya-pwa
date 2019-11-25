@@ -1,11 +1,12 @@
 import React from "react";
-import { Switch, Route } from "react-router";
+import { Switch, Route } from "react-router-dom";
 import Home from "./containers/Home";
-import NotFound from "./containers/NotFound";
+import Page404 from "./components/Page404";
+
 import AppliedRoute from "./components/AppliedRoute";
-import TermsAndConditions from "./components/TermsAndConditions";
-import PrivacyPolicy from "./components/PrivacyPolicy";
-import Support from "./components/Support";
+//import TermsAndConditions from "./components/TermsAndConditions";
+//import PrivacyPolicy from "./components/PrivacyPolicy";
+//import Support from "./components/Support";
 //import AuthenticatedRoute from "./components/AuthenticatedRoute";
 //import UnauthenticatedRoute from "./components/UnauthenticatedRoute";
 
@@ -16,24 +17,24 @@ export default ({childProps}) => <Switch>
                                      component={ Home }
                                      props={ childProps } />
 
-                                   { /* This is the terms-conditions Route */ }
+                                   { /* This is the terms-conditions Route 
                                    <AppliedRoute path="/terms-conditions"
                                      exact
                                      component={ TermsAndConditions }
                                      props={ childProps } />
 
-                                   { /* This is the privacy-policy Route */ }
+                                   { /* This is the privacy-policy Route 
                                    <AppliedRoute path="/privacy-policy"
                                      exact
                                      component={ PrivacyPolicy }
                                      props={ childProps } />
 
-                                   { /* This is the support Route */ }
+                                   { /* This is the support Route 
                                    <AppliedRoute path="/support"
                                      exact
                                      component={ Support }
                                      props={ childProps } />
 
                                    { /* This route will catch all unmatched routes && MUST BE LAST!!! */ }
-                                   <Route component={ NotFound } />
+                                   <Route component={ Page404 } />
                                  </Switch>;
