@@ -33,7 +33,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/TnC.png" className="ftr-icon-1" />
+												<Image src="/img/FooterIcons/TnC.png" className="ftr-icon-1" />
 												<p className="ftr-p">T&C's</p>
 											</div>
 										</section>
@@ -48,7 +48,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2" />
+												<Image src="/img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2" />
 												<p className="ftr-p">Privacy</p>
 											</div>
 										</section>
@@ -63,7 +63,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/FeeIcon.png" className="ftr-icon-3" />
+												<Image src="/img/FooterIcons/FeeIcon.png" className="ftr-icon-3" />
 												<p className="ftr-p">Instagram</p>
 											</div>
 										</section>
@@ -78,7 +78,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4" />
+												<Image src="/img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4" />
 												<p className="ftr-p">Jobs</p>
 											</div>
 										</section>
@@ -93,7 +93,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/SupportIcon.png" className="ftr-icon-5" />
+												<Image src="/img/FooterIcons/SupportIcon.png" className="ftr-icon-5" />
 												<p className="ftr-p">Support</p>
 											</div>
 										</section>
@@ -116,7 +116,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/TnC.png" className="ftr-icon-1a" />
+												<Image src="/img/FooterIcons/TnC.png" className="ftr-icon-1a" />
 												<p className="ftr-pa">Terms &</p>
 												<p className="ftr-pa">Conditions</p>
 											</div>
@@ -132,7 +132,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2a" />
+												<Image src="/img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2a" />
 												<p className="ftr-pa">Privacy Policy</p>
 											</div>
 										</section>
@@ -147,7 +147,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/FeeIcon.png" className="ftr-icon-3a" />
+												<Image src="/img/FooterIcons/FeeIcon.png" className="ftr-icon-3a" />
 												<p className="ftr-pa">Instagram</p>
 											</div>
 										</section>
@@ -162,7 +162,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4a" />
+												<Image src="/img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4a" />
 												<p className="ftr-pa">Jobs</p>
 											</div>
 										</section>
@@ -177,7 +177,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/SupportIcon.png" className="ftr-icon-5a" />
+												<Image src="/img/FooterIcons/SupportIcon.png" className="ftr-icon-5a" />
 												<p className="ftr-pa">Support</p>
 											</div>
 										</section>
@@ -200,7 +200,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/TnC.png" className="ftr-icon-1a" />
+												<Image src="/img/FooterIcons/TnC.png" className="ftr-icon-1a" />
 												<p className="ftr-pa">Terms &</p>
 												<p className="ftr-pa">Conditions</p>
 											</div>
@@ -216,7 +216,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2a" />
+												<Image src="/img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2a" />
 												<p className="ftr-pa">Privacy Policy</p>
 											</div>
 										</section>
@@ -231,7 +231,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/FeeIcon.png" className="ftr-icon-3a" />
+												<Image src="/img/FooterIcons/FeeIcon.png" className="ftr-icon-3a" />
 												<p className="ftr-pa">Instagram</p>
 											</div>
 										</section>
@@ -246,7 +246,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4a" />
+												<Image src="/img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4a" />
 												<p className="ftr-pa">Jobs</p>
 											</div>
 										</section>
@@ -261,7 +261,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div className="p-parent">
-												<Image src="../img/FooterIcons/SupportIcon.png" className="ftr-icon-5a" />
+												<Image src="/img/FooterIcons/SupportIcon.png" className="ftr-icon-5a" />
 												<p className="ftr-pa">Support</p>
 											</div>
 										</section>
@@ -284,7 +284,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/TnC.png" className="ftr-icon-1a" />
+												<Image src="/img/FooterIcons/TnC.png" className="ftr-icon-1a" />
 												<p className="ftr-pa">Terms &</p>
 												<p className="ftr-pa">Conditions</p>
 											</div>
@@ -300,7 +300,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2a" />
+												<Image src="/img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2a" />
 												<p className="ftr-pa">Privacy Policy</p>
 											</div>
 										</section>
@@ -315,7 +315,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/FeeIcon.png" className="ftr-icon-3a" />
+												<Image src="/img/FooterIcons/FeeIcon.png" className="ftr-icon-3a" />
 												<p className="ftr-pa">Instagram</p>
 											</div>
 										</section>
@@ -330,7 +330,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4a" />
+												<Image src="/img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4a" />
 												<p className="ftr-pa">Jobs</p>
 											</div>
 										</section>
@@ -345,7 +345,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div className="p-parent">
-												<Image src="../img/FooterIcons/SupportIcon.png" className="ftr-icon-5a" />
+												<Image src="/img/FooterIcons/SupportIcon.png" className="ftr-icon-5a" />
 												<p className="ftr-pa">Support</p>
 											</div>
 										</section>
@@ -368,7 +368,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/TnC.png" className="ftr-icon-1b" />
+												<Image src="/img/FooterIcons/TnC.png" className="ftr-icon-1b" />
 												<p className="ftr-pa">Terms &</p>
 												<p className="ftr-pa">Conditions</p>
 											</div>
@@ -384,7 +384,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2b" />
+												<Image src="/img/FooterIcons/PrivacyPolicyIcon.png" className="ftr-icon-2b" />
 												<p className="ftr-pa">Privacy Policy</p>
 											</div>
 										</section>
@@ -399,7 +399,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/FeeIcon.png" className="ftr-icon-3b" />
+												<Image src="/img/FooterIcons/FeeIcon.png" className="ftr-icon-3b" />
 												<p className="ftr-pa">Instagram</p>
 											</div>
 										</section>
@@ -414,7 +414,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div>
-												<Image src="../img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4b" />
+												<Image src="/img/FooterIcons/OLicenseIcon.png" className="ftr-icon-4b" />
 												<p className="ftr-pa">Jobs</p>
 											</div>
 										</section>
@@ -429,7 +429,7 @@ export default class Footer extends Component {
 									>
 										<section className="ftr-button" onClick={ void (0) } onTouchStart={ () => "" }>
 											<div className="p-parent">
-												<Image src="../img/FooterIcons/SupportIcon.png" className="ftr-icon-5b" />
+												<Image src="/img/FooterIcons/SupportIcon.png" className="ftr-icon-5b" />
 												<p className="ftr-pa">Support</p>
 											</div>
 										</section>
@@ -445,7 +445,7 @@ export default class Footer extends Component {
 						</footer>
 		          	)}
 		        />
-		        
+
 			</Container>
 		</div>
 	);

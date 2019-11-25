@@ -25,40 +25,44 @@ export default class Home extends Component {
 		        <Media query="(max-width: 599px)" render={() =>
 		          	(
 		          		<article>
+		          			<section className="Site-content">
 
-							<Container>
-							  <Row>
-							    <Col>
-							      <Image src="/img/HeyaLogo.jpg" className="logo-icon-sm" thumbnail />
-							    </Col>
-							  </Row>
-							</Container>
+								<Container>
+								  <Row>
+								    <Col>
+								      <Image src="/img/HeyaLogo.jpg" className="logo-icon-sm" thumbnail />
+								    </Col>
+								  </Row>
+								</Container>
 
-							<Typist className="my-typist" cursor={{ show: false, hideWhenDone: true }}>
-								<h5>
-									The dating app for people who hate dating apps.
-								</h5>
-							</Typist>
+								<Typist className="my-typist" cursor={{ show: false, hideWhenDone: true }}>
+									<h3>
+										The dating app for people who hate dating apps.
+									</h3>
+								</Typist>
 
-							<p>
-								Stop messaging. Start meeting #IRL.
-							</p>
+								<p>
+									Stop messaging. Start meeting #IRL.
+								</p>
 
-							<Container>
-							  <Row>
-							    <Col>
-							      <Image src="/img/InstaIcon.png" className="insta-icon-sm" thumbnail />
-							    </Col>
-							  </Row>
-							</Container>
+								{/* 
 
-							<Container>
-							  <Row>
-							    <Col>
-							      <Image src="/img/iOSapp.png" className="ios-icon-sm" thumbnail />
-							    </Col>
-							  </Row>
-							</Container>
+								<Container>
+								  <Row>
+								    <Col>
+								      <Image src="/img/InstaIcon.png" className="insta-icon-sm" thumbnail />
+								    </Col>
+								  </Row>
+								</Container> */}
+
+								<Container>
+								  <Row>
+								    <Col>
+								      <Image src="/img/iOSapp.png" className="ios-icon-sm" thumbnail />
+								    </Col>
+								  </Row>
+								</Container>
+							</section>
 
 							{/* Need the Footer Menu to display new features */}
 							<Footer />
