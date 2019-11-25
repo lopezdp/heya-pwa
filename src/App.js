@@ -1,8 +1,8 @@
-import React, { Component, Fragment } from "react";
-import { NavLink } from "react-router-dom";
+import React, { Component } from "react";
 import { withRouter } from "react-router";
 import Routes from "./Routes";
 import "./App.css";
+//import { NavLink } from "react-router-dom";
 //import Navbar from "react-bootstrap/Navbar";
 //import Nav from "react-bootstrap/Nav";
 //import NavDropdown from "react-bootstrap/NavDropdown";
