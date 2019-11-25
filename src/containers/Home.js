@@ -1,4 +1,5 @@
 import React, {Component }from "react";
+import Media from "react-media";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -19,35 +20,146 @@ export default class Home extends Component {
 
 	renderLandingPage() {
 		return(
-			<article className="LandingPage">
+			<Container className="LandingPage">
+		        <Media query="(max-width: 599px)" render={() =>
+		          	(
+		          		<article>
 
-				<Container>
-				  <Row>
-				    <Col>
-				      <Image src="/img/HeyaLogo.jpg" className="logo-icon" thumbnail />
-				    </Col>
-				  </Row>
-				</Container>
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/HeyaLogo.jpg" className="logo-icon-sm" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
 
-				<Typist className="my-typist" cursor={{ show: false, hideWhenDone: true }}>
-					<h5>
-						The dating app for people who hate dating apps.
-					</h5>
-				</Typist>
+							<Typist className="my-typist" cursor={{ show: false, hideWhenDone: true }}>
+								<h5>
+									The dating app for people who hate dating apps.
+								</h5>
+							</Typist>
 
-				<p>
-					Stop messaging. Start meeting #IRL.
-				</p>
+							<p>
+								Stop messaging. Start meeting #IRL.
+							</p>
 
-				<Container>
-				  <Row>
-				    <Col>
-				      <Image src="/img/iOSapp.png" className="ios-icon" thumbnail />
-				    </Col>
-				  </Row>
-				</Container>
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/InstaIcon.png" className="insta-icon-sm" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
 
-			</article>
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/iOSapp.png" className="ios-icon-sm" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
+
+						</article>
+		          	)}
+		        />
+
+
+
+
+
+
+
+		        <Media query="(min-width: 600px) and (max-width: 799px)" render={() =>
+		          	(
+		          		<article>
+
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/HeyaLogo.jpg" className="logo-icon-md" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
+
+							<Typist className="my-typist" cursor={{ show: false, hideWhenDone: true }}>
+								<h5>
+									The dating app for people who hate dating apps.
+								</h5>
+							</Typist>
+
+							<p>
+								Stop messaging. Start meeting #IRL.
+							</p>
+
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/iOSapp.png" className="ios-icon-md" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
+
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/InstaIcon.png" className="insta-icon-md" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
+							
+						</article>
+		          	)}
+		        />
+
+
+
+
+
+
+
+		        <Media query="(min-width: 800px)" render={() =>
+		          	(
+		          		<article>
+
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/HeyaLogo.jpg" className="logo-icon-lg" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
+
+							<Typist className="my-typist" cursor={{ show: false, hideWhenDone: true }}>
+								<h5>
+									The dating app for people who hate dating apps.
+								</h5>
+							</Typist>
+
+							<p>
+								Stop messaging. Start meeting #IRL.
+							</p>
+
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/iOSapp.png" className="ios-icon-lg" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
+
+							<Container>
+							  <Row>
+							    <Col>
+							      <Image src="/img/InstaIcon.png" className="insta-icon-lg" thumbnail />
+							    </Col>
+							  </Row>
+							</Container>
+							
+						</article>
+		          	)}
+		        />
+
+			</Container>
 		);
 	}
 
