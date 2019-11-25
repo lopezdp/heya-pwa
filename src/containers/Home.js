@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Typist from "react-typist";
+import Footer from "../components/Footer";
 // import { Auth, API } from "aws-amplify";
 // import DashboardUiCard from "../components/DashboardUiCard";
 import "./Home.css";
@@ -59,6 +60,9 @@ export default class Home extends Component {
 							  </Row>
 							</Container>
 
+							{/* Need the Footer Menu to display new features */}
+							<Footer />
+
 						</article>
 		          	)}
 		        />
@@ -106,6 +110,9 @@ export default class Home extends Component {
 							    </Col>
 							  </Row>
 							</Container>
+
+							{/* Need the Footer Menu to display new features */}
+							<Footer />
 							
 						</article>
 		          	)}
@@ -154,6 +161,9 @@ export default class Home extends Component {
 							    </Col>
 							  </Row>
 							</Container>
+
+							{/* Need the Footer Menu to display new features */}
+							<Footer />
 							
 						</article>
 		          	)}

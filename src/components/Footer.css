@@ -1,0 +1,245 @@
+.ftr-div {
+
+}
+.footer-menu {
+
+	height: 80px;
+	background-color: #F9F9F9;
+}
+
+.ftr {
+	display: flex!important;
+	justify-content: space-around;
+}
+
+.p-parent {
+	position: relative;
+}
+
+p.ftr-txt-1 {
+	padding: 5px!important;
+	font-size: 10px!important;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle!important;
+}
+
+p.ftr-txt-1a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 80%;
+	width: 110%;
+	margin: -13% 0 0 -62%;
+	padding: 5px!important;
+	font-size: 10px!important;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle!important;
+	color: #999;
+}
+
+p.ftr-p {
+	color: #999;
+	font-size: 12px;
+	text-decoration: none!important;
+	margin-bottom: 0px!important;
+	padding-bottom: 10px;
+	/*padding-bottom: 20px;*/
+}
+
+p.ftr-pa {
+	color: #999;
+	font-size: 12px;
+	text-decoration: none!important;
+	margin-bottom: 0px!important;
+	/*padding-bottom: 20px;*/
+}
+
+.rw {
+	max-width: 100%;
+	background-color: #F9F9F9;
+}
+
+.ftr-col-1:hover, .ftr-col-1:focus, .ftr-col-1:active,
+.ftr-col-2:hover, .ftr-col-2:focus, .ftr-col-2:active,
+.ftr-col-3:hover, .ftr-col-3:focus, .ftr-col-3:active,
+.ftr-col-4:hover, .ftr-col-4:focus, .ftr-col-4:active,
+.ftr-col-5:hover, .ftr-col-5:focus, .ftr-col-5:active {
+	background-color: #ececec;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-1 {
+	width: 55%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 1px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-2 {
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-3 {
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 8px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-4 {
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-5 {
+	width: 60%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 7px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-1a {
+	width: 25%;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-2a {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 9px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-3a {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 14px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-4a {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 18px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-5a {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 12px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-1b {
+	width: 25%;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 5px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-2b {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 9px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-3b {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 14px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-4b {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 18px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-icon-5b {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 12px;
+	transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ftr-col-1 {
+	padding-right: 0px!important;
+	padding-left: 0px!important;
+	padding-bottom: 10px;
+}
+
+.ftr-col-2 {
+	padding: 0px!important;
+}
+
+.ftr-col-3 {
+	padding: 0px!important;
+}
+
+.ftr-col-4 {
+	padding: 0px!important;
+}
+
+.ftr-col-5 {
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
